@@ -53,7 +53,7 @@ hotkeys:
   new-window:
     - Ctrl-Shift-N
   new-tab:
-    - Ctrl-Shift-T
+    - - Ctrl-T
   profile: {}
   profile-selectors: {}
   toggle-fullscreen:
@@ -151,30 +151,41 @@ hotkeys:
     - Ctrl-Alt-T
   profile-selector:
     - Ctrl-Shift-E
+  focus-all-tabs:
+    - Ctrl-Alt-Shift-I
+  scroll-to-top:
+    - Ctrl-PageUp
+  scroll-up:
+    - Alt-PageUp
+  scroll-down:
+    - Alt-PageDown
+  restart-tab: []
+  command-selector:
+    - Ctrl-Shift-P
 terminal:
   searchOptions: {}
   colorScheme:
-    name: Eirik
-    foreground: '#80cbc4'
-    background: '#1a1a1a'
-    cursor: '#fcfbcc'
+    name: Hardcore
+    foreground: '#f3e5f5'
+    background: '#131313'
+    cursor: '#bbbbbb'
     colors:
-      - '#000000'
-      - '#e9897c'
-      - '#f06292'
-      - '#4fc3f7'
-      - '#e1f5fe'
-      - '#ce93d8'
-      - '#e91e63'
-      - '#f2f2f2'
-      - '#4caf50'
-      - '#f99286'
-      - '#c3f786'
-      - '#fcfbcc'
+      - '#1b1d1e'
+      - '#f92672'
+      - '#43a047'
+      - '#fd971f'
+      - '#9c27b0'
+      - '#9e6ffe'
+      - '#ffeb3b'
+      - '#ffeb3b'
+      - '#ffca28'
+      - '#ff669d'
+      - '#ec407a'
+      - '#e6db74'
+      - '#9c27b0'
+      - '#9e6ffe'
+      - '#ffeb3b'
       - '#ffffff'
-      - '#ad7fa8'
-      - '#d7d9fc'
-      - '#e2e2e2'
   profile: local:git-bash
   customColorSchemes:
     - name: Eirik
@@ -198,9 +209,31 @@ terminal:
         - '#ad7fa8'
         - '#d7d9fc'
         - '#e2e2e2'
+    - name: Hardcore
+      foreground: '#f3e5f5'
+      background: '#131313'
+      cursor: '#bbbbbb'
+      colors:
+        - '#1b1d1e'
+        - '#f92672'
+        - '#43a047'
+        - '#fd971f'
+        - '#9c27b0'
+        - '#9e6ffe'
+        - '#ffeb3b'
+        - '#ffeb3b'
+        - '#ffca28'
+        - '#ff669d'
+        - '#ec407a'
+        - '#e6db74'
+        - '#9c27b0'
+        - '#9e6ffe'
+        - '#ffeb3b'
+        - '#ffffff'
   cursor: beam
   fontSize: 12
   ligatures: true
+  background: colorScheme
 ssh:
   knownHosts: []
 configSync:
